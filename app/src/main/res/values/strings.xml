@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Android</string>
+    <string name="imgLogin"></string>
+    <string name="login">INGRESAR</string>
+    <string name="olvidaste_contraseña">TE OLVIDASTE LA CONTRASEÑA</string>
+    <string name="registra_aqui">REGISTRAR AQUI</string>
+    <string name="name">name</string>
+    <string name="password">password</string>
+
+    <string name="reg_Nombre">Ingrese Nombre</string>
+    <string name="reg_Apellidos">Ingrese Apellidos</string>
+    <string name="reg_Sexo">Ingrese Sexo</string>
+    <string name="reg_Correo">Ingrese Correo</string>
+    <string name="reg_Usuario">Ingrese Usuario</string>
+    <string name="reg_Contraseña">Ingrese Contraseña</string>
+    <string name="reg_Agregar">AGREGAR</string>
+    <string name="reg_Nuevo">NUEVO</string>
+    <string name="reg_Cancelar">CANCELAR</string>
+    <string name="bus_Buscar">BUSCAR</string>
+    <string name="bus_Eliminar">ELIMINAR</string>
+    <string name="bus_Editar">EDITAR</string>
+
+
+    <string name="lblREGRegistro">NUEVO REGISTRO</string>
+</resources>

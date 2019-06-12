@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp">
+
+    <RelativeLayout
+        android:id="@+id/REG_TITULO"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/lblREGRegistro"
+            android:textColor="@color/colorPrimary"
+            android:textSize="36sp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="420dp"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/REL_Nombre"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:gravity="center">
+
+            <EditText
+                android:id="@+id/txtNombre"
+                android:layout_width="270dp"
+                android:layout_height="40dp"
+                android:background="#226078	"
+                android:drawableStart="@drawable/ic_action_usser"
+                android:drawableLeft="@drawable/ic_action_usser"
+                android:ems="10"
+                android:hint="@string/reg_Nombre"
+                android:inputType="textPersonName"
+                android:textColor="@android:color/white"
+                android:textColorHint="@android:color/white" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/REL_Apellidos"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:gravity="center">
+
+            <EditText
+                android:id="@+id/txtApellidos"
+                android:layout_width="270dp"
+                android:layout_height="40dp"
+                android:background="#226078	"
+                android:drawableStart="@drawable/ic_action_usser"
+                android:drawableLeft="@drawable/ic_action_usser"
+                android:ems="10"
+                android:hint="@string/reg_Apellidos"
+                android:inputType="textPersonName"
+                android:textColor="@android:color/white"
+                android:textColorHint="@android:color/white" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/REL_Sexo"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:gravity="center">
+
+            <EditText
+                android:id="@+id/txtSexo"
+                android:layout_width="270dp"
+                android:layout_height="40dp"
+                android:background="#226078	"
+                android:drawableStart="@drawable/ic_action_usser"
+                android:drawableLeft="@drawable/ic_action_usser"
+                android:ems="10"
+                android:hint="@string/reg_Sexo"
+                android:inputType="textPersonName"
+                android:textColor="@android:color/white"
+                android:textColorHint="@android:color/white" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/REL_Correo"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:gravity="center">
+
+            <EditText
+                android:id="@+id/txtCorreo"
+                android:layout_width="270dp"
+                android:layout_height="40dp"
+                android:background="#964431"
+                android:drawableStart="@drawable/ic_action_usser"
+                android:drawableLeft="@drawable/ic_action_usser"
+                android:ems="10"
+                android:hint="@string/reg_Correo"
+                android:inputType="textPersonName"
+                android:textColor="@android:color/white"
+                android:textColorHint="@android:color/white"
+                android:autofillHints="" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/REL_Usuario"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:gravity="center">
+
+            <EditText
+                android:id="@+id/txtUsuario"
+                android:layout_width="270dp"
+                android:layout_height="40dp"
+                android:background="#964431"
+                android:drawableStart="@drawable/ic_action_usser"
+                android:drawableLeft="@drawable/ic_action_usser"
+                android:ems="10"
+                android:hint="@string/reg_Usuario"
+                android:inputType="textPersonName"
+                android:textColor="@android:color/white"
+                android:textColorHint="@android:color/white" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/REL_Contraseña"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:gravity="center">
+
+            <EditText
+                android:id="@+id/txtContraseña"
+                android:layout_width="270dp"
+                android:layout_height="40dp"
+                android:background="#964431"
+                android:drawableStart="@drawable/ic_action_usser"
+                android:drawableLeft="@drawable/ic_action_usser"
+                android:ems="10"
+                android:hint="@string/reg_Contraseña"
+                android:inputType="textPersonName"
+                android:textColor="@android:color/white"
+                android:textColorHint="@android:color/white" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnNuevo"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:background="@drawable/ic_launcher_background_nuevo"
+            android:text="@string/reg_Nuevo"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/btnCancelar"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:background="#964431"
+            android:text="@string/reg_Cancelar"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/btnAgregar"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:background="@drawable/ic_launcher_background_nuevo"
+            android:text="@string/reg_Agregar"
+            android:textSize="20dp" />
+
+    </LinearLayout>
+
+</LinearLayout>
